@@ -1,0 +1,46 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time-line {
+  width: 20%;
+}
+.projects-container {
+  width: 75%;
+}
+
+.grid {
+  display: grid;
+  padding: 0.5rem 0 1rem 0;
+  margin: 0 auto;
+  grid-row-gap: 1.5rem;
+  grid-column-gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+}
+
+.dull,
+.projects-container:hover > .project {
+  opacity: 0.3;
+}
+
+.projects-container .active,
+.projects-container:hover > .project:hover {
+  color: blue;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.year,
+.project {
+  cursor: pointer;
+}
+
+.project h4 {
+  text-align: center;
+}
