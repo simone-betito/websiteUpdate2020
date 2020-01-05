@@ -1,8 +1,4 @@
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
+/* projects */
 .flex {
   display: flex;
   justify-content: space-between;
@@ -32,7 +28,6 @@
 .projects-container .active,
 .projects-container:hover > .project:hover {
   color: blue;
-  font-weight: bold;
   opacity: 1;
 }
 
@@ -43,4 +38,8 @@
 
 .project h4 {
   text-align: center;
+}
+
+.bottomText {
+  text-align: end;
 }
