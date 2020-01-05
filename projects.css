@@ -6,6 +6,8 @@
 
 .time-line {
   width: 20%;
+  position: fixed;
+  top: 10rem;
 }
 .projects-container {
   width: 75%;
@@ -17,7 +19,7 @@
   margin: 0 auto;
   grid-row-gap: 1.5rem;
   grid-column-gap: 1.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 .dull,
@@ -37,9 +39,9 @@
 }
 
 .project h4 {
-  text-align: center;
+  text-align: left;
 }
 
 .bottomText {
-  text-align: end;
+  text-align: left;
 }
